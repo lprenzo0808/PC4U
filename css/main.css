@@ -32,7 +32,23 @@ nav{
 .shop{
 	margin-top: 70px;
 }
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
 
+.five {
+}
+  grid-column: 2/6;
+  grid-row: 3/6;
+  border-color: #FCDC4D;
+  border-width: 5px;
+  border-style: solid;
+}
+.five img{
+	max-width: 627px
 .shop h2{
 	text-align: center;
 	color: white;
@@ -41,6 +57,21 @@ nav{
 	text-shadow: black 1px 1px 10px;
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #9A031E;
+   color: white;
+   text-align: center;
+}
+ 
+}
+text-align: center;
+ .sale-item p{
+}
+	width: 250px;
 
 .sale{
 	display: inline-grid;
@@ -76,11 +107,3 @@ nav{
 
 .sale-item:hover{
 	height: 250px;
-	width: 250px;
-}
- .sale-item p{
- 	text-align: center;
- }
-
- /* hardware/*
- 
