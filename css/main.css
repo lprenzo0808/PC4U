@@ -40,15 +40,18 @@ nav{
 }
 
 .five {
-}
+
   grid-column: 2/6;
   grid-row: 3/6;
   border-color: #FCDC4D;
   border-width: 5px;
   border-style: solid;
 }
+
 .five img{
-	max-width: 627px
+	max-width: 627px;
+}
+
 .shop h2{
 	text-align: center;
 	color: white;
@@ -66,12 +69,12 @@ nav{
    color: white;
    text-align: center;
 }
- 
-}
+
 text-align: center;
- .sale-item p{
 }
+ .sale-item p{
 	width: 250px;
+}
 
 .sale{
 	display: inline-grid;
@@ -105,5 +108,7 @@ text-align: center;
 	width: 250px;
 }
 
-.sale-item:hover{
+.sale-item:hover
+{
 	height: 250px;
+}
