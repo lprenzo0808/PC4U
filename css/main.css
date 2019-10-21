@@ -5,6 +5,11 @@
 	margin: 0;
 }
 
+h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 body{
 	width: 960px;
 	margin: 0 auto;
@@ -112,4 +117,14 @@ text-align: center;
 .sale-item:hover
 {
 	height: 250px;
+}
+
+.product img {
+	float: left;
+	margin-right: 20px;
+}
+
+.prodct h3 {
+	margin: 10px;
+	margin-bottom: 50px;	
 }
